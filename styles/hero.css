@@ -230,6 +230,16 @@
 @media (width < 80em) {
   #hero {
     flex-direction: column-reverse;
+    padding: 1rem 1.5rem;
+
+    & h1 {
+      font-size: 2rem;
+      line-height: 1.5rem;
+    }
+
+    & h1 div {
+      height: 1.5rem;
+    }    
 
     & > div:nth-child(2) {
       display: block;
