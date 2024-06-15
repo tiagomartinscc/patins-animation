@@ -29,7 +29,7 @@ html, button {
 
 html {
   /* remover depois */
-  /* zoom: .5; */
+  zoom: .5;
 }
 
 h1, h2 {
