@@ -42,5 +42,11 @@ header.top {
       align-items: center;
     }
   }
+}
 
+/* mobile */
+@media (width < 80) {
+  header.top {
+    padding: .75rem 1.5rem;
+  }
 }

@@ -45,3 +45,13 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+/* mobile */
+@media (width < 80) {
+  :root {
+    --text-sm: 0.75rem;
+    --text-base: 1rem;
+    --text-lg: 1.5rem;
+    --text-xl: 2rem;
+  }
+}

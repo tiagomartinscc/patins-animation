@@ -228,7 +228,7 @@
 
 /* mobile */
 @media (width < 80em) {
-  #hero {
+  .hero {
     flex-direction: column-reverse;
     padding: 1rem 1.5rem;
 

@@ -98,3 +98,19 @@ footer {
 
   }
 }
+
+/* mobile */
+@media (width < 80em) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 3rem 1.5rem 1.52rem;
+    margin-inline: auto;
+    gap: 1.5rem;
+
+    & nav {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+}

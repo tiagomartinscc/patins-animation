@@ -105,8 +105,6 @@ section.gallery {
       border-radius: 50%;
     }
   }  
-
-
 }
 
 @keyframes image-appear {
@@ -114,4 +112,16 @@ section.gallery {
     opacity: 0;
     transform: translateY(100%);
   }
+}
+
+@media(width < 80em) {
+  section.gallery {
+    width: 100%;
+
+    & .content {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+    }     
+  }  
 }
